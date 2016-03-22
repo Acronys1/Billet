@@ -74,7 +74,7 @@ public class TestFroisser
     {
     	Proprietaire p = new Proprietaire("Manu", uneListeDeBillet);
     	assertEquals(200, p.prendreBillet(billet200));
-    	assertTrue(p.prendreBillet(billet200) > p.prendreBillet(billet200)<);
+    	assertTrue(p.prendreBillet(billet200) > p.prendreBillet(billet200));
     }
     
     @Test
